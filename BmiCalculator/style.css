@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+form  button{
+ background-color: bisque;
+ width: 100px;
+ height: 40px;
+ border-radius: 40px;
+ color: tomato;
+ font-size: medium;
+ font-weight: bold;
+ padding: 10px;
+ border: none;
+ 
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+}
+*:focus {
+    outline: none;
+}
+
+form input {
+    
+    background-color: aliceblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+    color: green;
+    border: none;
+}
+
+html,body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
